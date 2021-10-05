@@ -26,9 +26,11 @@
       <form action="" method="GET" >
         <input class="input" required  type="text" placeholder="First Name">
         <input class="input" type="text" placeholder="Last Name">
-        <input class="input" type="email" placeholder="Email Address">
+        <input class="input" id="email" type="email" placeholder="Email Address" onblur="validationEmail()" onfocus="resetMsg()" maxlength="60" size="65">
+        <p class="redFlag" id="emailFlag">Looks like this is not an email</p>
         <input class="input" type="password" placeholder="Password">
-        <input class="btnSend" type="button" value="Claim your free trial">
+        <input type="button" value="" hidden>
+        <button class="btnSend">Claim your free trial</button>
       </form>
       <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p> 
     </div>
