@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts, Colors and Comments
+
+### Primary
+
+- Red: hsl(0, 100%, 74%) 
+- Green: hsl(154, 59%, 51%)
+
+### Accent
+
+- Blue: hsl(248, 32%, 49%)
+
+### Neutral
+
+- Dark Blue: hsl(249, 10%, 26%) 
+- Grayish Blue: hsl(246, 25%, 77%)
+
+font-family: 'Poppins', sans-serif;
+
+*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%); 
+}
+
+#text{
+    margin: 4rem 2rem 3rem 2rem;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+}
+#text h1{
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+#btnPrice button{
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 85%;
+    height:5rem;
+    background-color: hsl(248, 32%, 49%);
+    color: hsl(0, 7%, 92%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    
+}
+#btnPrice span{
+    font-weight: 600;
+}
+#forms{
+    background-color: white;
+    border-radius: 10px;
+    width: 85%;
+    height: 30rem;
+    margin-bottom: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.24rem;
+}
+#forms .input{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(249, 10%, 26%);
+    border-radius: 8px;
+    border: 1px solid hsl(246, 20%, 81%);
+}
