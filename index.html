@@ -24,11 +24,14 @@
     </div>
     <div id="forms">
       <form action="" method="GET" >
-        <input class="input" required  type="text" placeholder="First Name">
-        <input class="input" type="text" placeholder="Last Name">
+        <input class="input" id="name" type="text" placeholder="First Name" onblur="validationName()">
+        <p class="redFlag">Frist Name cannot be empty</p>
+        <input class="input" id="last" type="text" placeholder="Last Name">
+        <p class="redFlag">Last Name cannot be empty</p>
         <input class="input" id="email" type="email" placeholder="Email Address" onblur="validationEmail()" onfocus="resetMsg()" maxlength="60" size="65">
         <p class="redFlag" id="emailFlag">Looks like this is not an email</p>
-        <input class="input" type="password" placeholder="Password">
+        <input class="input" id="password" type="password" placeholder="Password">
+        <p class="redFlag">Password Name cannot be empty</p>
         <input type="button" value="" hidden>
         <button class="btnSend">Claim your free trial</button>
       </form>

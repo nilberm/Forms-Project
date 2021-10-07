@@ -15,3 +15,12 @@ function resetMsg(){
         emailFlag.style.display = "none"
     }
 }
+
+var nameInput = document.getElementById("name")
+
+function validationName(){
+    if("nameInput" == " "){
+        if(nameInput.classList) nameInput.classList.add("error")
+        nameInput.style.display = "block"
+    }else nameInput.classList.remove("error")
+}
