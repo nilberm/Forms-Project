@@ -184,14 +184,15 @@ body{
         font-size: 1.4rem;
     }    
 
+    #desktopDiv{
+        max-width: 50rem;
+    }
     #btnPrice button{
         height: 4rem;
-        max-width: 50rem;
         margin-right: 6rem;
     }
 
     #forms{
-        max-width: 50rem;
         justify-items: center;
         margin-right: 6rem;
         padding: 2rem 3rem 1rem 3rem;
