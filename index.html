@@ -24,14 +24,19 @@
     </div>
     <div id="forms">
       <form action="" method="GET" >
-        <input class="input" id="name" type="text" placeholder="First Name" onblur="validationName()">
-        <p class="redFlag">Frist Name cannot be empty</p>
-        <input class="input" id="last" type="text" placeholder="Last Name">
-        <p class="redFlag">Last Name cannot be empty</p>
-        <input class="input" id="email" type="email" placeholder="Email Address" onblur="validationEmail()" onfocus="resetMsg()" maxlength="60" size="65">
+
+        <input class="input" id="name" type="text" required placeholder="First Name" onblur="validationName()" onfocus="resetName()">
+        <p class="redFlag" id="nameFlag">Frist Name cannot be empty</p>
+
+        <input class="input" id="last" type="text" required placeholder="Last Name" onblur="validationLast()" onfocus="resetLast()">
+        <p class="redFlag" id="lastFlag">Last Name cannot be empty</p>
+
+        <input class="input" id="email" type="email" required placeholder="Email Address" onblur="validationEmail()" onfocus="resetMsg()" maxlength="60" size="65">
         <p class="redFlag" id="emailFlag">Looks like this is not an email</p>
-        <input class="input" id="password" type="password" placeholder="Password">
-        <p class="redFlag">Password Name cannot be empty</p>
+
+        <input class="input" id="password" type="password" required placeholder="Password" onblur="validationPass()" onfocus="resetPass()">
+        <p class="redFlag" id="passwordFlag">Password Name cannot be empty</p>
+
         <input type="button" value="" hidden>
         <button class="btnSend">Claim your free trial</button>
       </form>
