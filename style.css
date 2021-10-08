@@ -158,3 +158,42 @@ body{
         transform: scale(1.05);
     }
 }
+
+@media (min-width: 1440px){
+    body{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        height: 100vh;
+        
+    }
+
+    #text{
+        max-width: 50rem;
+        justify-items: center;
+        text-align: left;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    #text h1{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    #text p{
+        font-size: 1.4rem;
+    }    
+
+    #btnPrice button{
+        height: 4rem;
+        max-width: 50rem;
+        margin-right: 6rem;
+    }
+
+    #forms{
+        max-width: 50rem;
+        justify-items: center;
+        margin-right: 6rem;
+        padding: 2rem 3rem 1rem 3rem;
+    }
+}
