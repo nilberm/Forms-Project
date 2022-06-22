@@ -17,7 +17,7 @@
 
 ![image](https://user-images.githubusercontent.com/83287176/136568003-9e86363b-adb8-4a68-9ac5-0357fed3318d.png)
 
-### Here you can see the forms does not send because is empty
+### Here you can see what happens when the forms are empty
 
 ![image](https://user-images.githubusercontent.com/83287176/136568164-9998a8d1-c483-4c0e-9669-c85895380ba5.png)
 
